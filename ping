@@ -1,0 +1,15 @@
+ping www.google.com.br > nul
+
+if %errorlevel% == 0 (
+  Echo "Ping de www.google.com.br OK"
+) else (
+  Echo "Ping de www.google.com.br NAO OK" 
+)
+
+ping www.googasdasle.com.br > nul
+
+if %errorlevel% == 0 (
+  Echo "Ping de www.googasdasle.com.br OK"
+) else (
+  Echo "Ping de www.googasdasle.com.br NAO OK" 
+)
